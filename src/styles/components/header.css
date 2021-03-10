@@ -1,0 +1,41 @@
+.Header{
+    background: #07082e;
+    width: 100%;
+    height: 45px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Header h1{
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.Header a{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.Header img{
+    width: 20px;
+}
+
+.NavBar{
+    width: 160px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 20px;
+}
+
+.NavBar a{
+    font-size: 14px;
+}
+
+.NavBar a:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
